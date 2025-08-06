@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+@layer components {
+  .containerXL {
+    @apply container  xl:max-w-[1100px] 2xl:max-w-[1300px] mx-auto;
+  }
+
+}
